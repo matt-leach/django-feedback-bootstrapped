@@ -1,0 +1,8 @@
+<div class="feedback-container">
+  {{ feedback_form.media }}
+  <form action="/feedback/add/" method="post">
+    {% csrf_token %}
+    {{ feedback_form }}
+    <input type="submit" value="Submit" />
+  </form>
+</div>

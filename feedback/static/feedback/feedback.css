@@ -1,0 +1,7 @@
+.feedback-container {
+  position: fixed;
+  right: 10px;
+  bottom: 80px;
+  padding: 10px;
+  background-color: lightgreen;
+}
