@@ -7,4 +7,5 @@ from app.views import HomeView
 urlpatterns = patterns('',
     url(r'^$', HomeView.as_view(), name='home'),
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^feedback/', include('feedback.urls', namespace="feedback")),
 )
