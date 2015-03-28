@@ -17,6 +17,7 @@ $("document").ready( function() {
         success: function(data, textStatus, jqXHR) 
         {   
         	alert("Feedback submitted!");
+        	$(".feedback-container").hide();
         },
         error: function(jqXHR, textStatus, errorThrown) 
         {
