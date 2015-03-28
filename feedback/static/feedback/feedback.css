@@ -1,7 +1,17 @@
+.glyphicon-feedback {
+  position: fixed;
+  right: 15px;
+  bottom: 10px;
+  top: auto;
+  cursor: pointer;
+  font-size: 2em;
+}
+
 .feedback-container {
   position: fixed;
   right: 10px;
-  bottom: 80px;
+  bottom: 60px;
   padding: 10px;
   background-color: lightgreen;
+  display: none;
 }

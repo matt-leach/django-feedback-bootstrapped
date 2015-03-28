@@ -1,4 +1,6 @@
+<span class="glyphicon glyphicon-comment glyphicon-feedback"></span>
 <div class="feedback-container">
+  
   {{ feedback_form.media }}
   <form action="/feedback/add/" method="post" id="feedback-form">
     {% csrf_token %}
