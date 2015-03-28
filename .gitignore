@@ -9,4 +9,4 @@ local/*
 debug.py
 db.sqlite3
 .settings/*
-
+feedback/migrations/*
