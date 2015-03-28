@@ -11,3 +11,4 @@ class FeedbackForm(ModelForm):
          css = {
              'all': ('/static/feedback/feedback.css',),
          }
+         js = ('/static/feedback/feedback.js', )
