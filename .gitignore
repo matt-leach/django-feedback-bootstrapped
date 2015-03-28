@@ -1,0 +1,12 @@
+.project
+.pydevproject
+bin/*
+include/*
+lib/*
+local/*
+*.pyc
+*~
+debug.py
+db.sqlite3
+.settings/*
+
