@@ -4,7 +4,7 @@
   {{ feedback_form.media }}
   <form action="/feedback/add/" method="post" id="feedback-form">
     {% csrf_token %}
-    {{ feedback_form }}
-    <input type="submit" value="Submit" />
+    {{ feedback_form.as_p }}
+    <input type="submit" value="Submit" class="btn btn-default btn-primary" />
   </form>
 </div>
