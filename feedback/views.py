@@ -19,4 +19,3 @@ def add_feedback(request):
     else:
         # Form isn't valid, return generic 400
         return http.HttpResponseBadRequest()
-    

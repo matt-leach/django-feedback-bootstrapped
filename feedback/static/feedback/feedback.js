@@ -2,9 +2,7 @@ $("document").ready( function() {
   $(".glyphicon-feedback").on('click', function() {
     $(".feedback-container").toggle();
   })
-  
-	
-  
+
   $("#feedback-form").submit(function(e) {
     e.preventDefault();
     var data = $(this).serialize();
