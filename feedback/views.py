@@ -5,7 +5,7 @@ from feedback.forms import FeedbackForm
 
 
 class AddFeedbackView(View):
-    
+
     def form_valid(self, form):
         feedback = form.save(commit=False)
         feedback.user = self.request.user  # Add the user

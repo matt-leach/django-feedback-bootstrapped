@@ -6,7 +6,7 @@ from feedback.models import Feedback
 class FeedbackForm(ModelForm):
     class Meta:
         model = Feedback
-        fields = ["text", "url"] # user, time added separately 
+        fields = ["text", "url"]  # user, time added separately
 
     def __init__(self, *args, **kwargs):
         super(FeedbackForm, self).__init__(*args, **kwargs)
@@ -15,7 +15,7 @@ class FeedbackForm(ModelForm):
         self.fields['text'].label = False
 
     class Media:
-         css = {
-             'all': ('/static/feedback/feedback.css',),
-         }
-         js = ('/static/feedback/feedback.js', )
+        css = {
+            'all': ('/static/feedback/feedback.css',),
+        }
+        js = ('/static/feedback/feedback.js', )
